@@ -1,0 +1,110 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Baloo Thambi 2', cursive;
+}
+.carousel-item{
+    max-height: calc(100vh - 71px);
+}
+.py-7{
+    padding-bottom: 70px;
+    padding-top: 70px;;
+}
+img{
+    width: 100%;
+}
+.carousel-caption{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+}
+p, a{
+    font-size: 18px;
+}
+.navbar-brand{
+    font-size: 30px;
+    letter-spacing: 6px;
+}
+.content{
+    margin-left: 50px;
+}
+.subscribe
+{
+background-image: url(img/newsletter-bg.jpg);
+background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.faq{
+    background-color: #f3faf6
+}
+.card .card-img-top
+{
+    height: 50% !important;
+}
+.faq{
+    padding: 150px 0;
+    background: linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,.9)),url('../img/faq-bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.faq i{
+    color: #28A745 !important;
+}
+.faq-list .fa-question-circle{
+    font-size: 23px;
+    position: absolute;
+    left: 26px;
+}
+.faq-list a{
+    color: #6b6b6b;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+}
+.faq-list a:hover{
+    color: #28A745;
+}
+.faq-list .fa-chevron-down,
+.faq-list .fa-chevron-up{
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+.faq-list .fa-chevron-down{
+    display: none;
+}
+.faq-list a.collapsed .fa-chevron-down{
+    display: inline-block;
+}
+.faq-list .fa-chevron-up{
+    display: inline-block;
+}
+.faq-list a.collapsed .fa-chevron-up{
+    display: none;
+}
+.info-box, .contact form{
+    box-shadow: 0 0 30px rgba(214, 215, 216, .6);
+    padding: 30px;
+}
+.footer-content
+{
+    word-spacing: 2px;
+}
+@media screen and (max-width: 426px){
+    .faq-list p, a{
+        font-size: 14px !important;
+    }
+}
+
+
+
+
+
+
